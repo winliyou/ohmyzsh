@@ -103,7 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export LSCOLORS="exfxcxdxbxegedabagacad"
-alias cdw="cd /Volumes/Work"
 
 # rust 
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
@@ -121,3 +120,4 @@ export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/
 export NVM_DIR="$HOME/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+compinit
